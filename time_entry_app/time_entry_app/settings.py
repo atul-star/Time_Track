@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'time_entry_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'myDb',
-        'USER':'root',
-        'PASSWORD':'root',
-        'HOST':'localhost',
+        'NAME':'jatul$userdb',
+        'USER':'jatul',
+        'PASSWORD':'Admin@123',
+        'HOST':'jatul.mysql.pythonanywhere-services.com',
         'PORT':3306
     }
 }
